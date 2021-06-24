@@ -1,0 +1,77 @@
+.tableBar {
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.index {
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+#container {
+  height: 100%;
+}
+
+.home {
+  padding-bottom: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+.siteKey {
+  position: fixed;
+  top: 100px;
+  right: 10px;
+  text-align: center;
+  line-height: 20px;
+  height: 20px;
+  font-size: 13px
+}
+
+.siteNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.siteBox {
+  padding-top: 45px;
+}
+
+.sticky-list .sticky-container .am-list-item {
+  padding-left: 0;
+}
+
+.sticky-list .sticky-container .am-list-line {
+  padding-right: 0;
+}
+
+.sticky-list .sticky-container .am-list-line .am-list-content {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.sticky-list .sticky-container .sticky {
+  padding: 7px 15px;
+  transform: none;
+}
